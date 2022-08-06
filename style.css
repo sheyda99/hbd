@@ -57,7 +57,9 @@ body
     border: 10px solid #9612eb;
     backface-visibility: hidden;
     background-color: #9612eb;
-    background-size: contain;
+    background-image: url("https://i.pinimg.com/originals/63/14/4e/63144ef0a9c6046af2c8b8f00c93b5a6.jpg");
+    background-size: cover;
+    background-position: center;
     transform-style: preserve-3d;
     transform-origin: 0% 50%;
     transform: perspective(800px) rotateY(0deg);
@@ -86,17 +88,6 @@ body
     transition: all 0.8s ease-in-out;
     background-color: #e6f0e6;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
-}
-.imgset
-{
-    position: relative;
-    z-index: 1;
-    margin-bottom: -215px;
-}
-.imgset img
-{
-    box-shadow: 0px 6px 11px 7px rgba(0, 0, 0, 0.22);
-    border-radius: 5px;
 }
 @media (max-width: 400px) {
     .card {
