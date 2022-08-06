@@ -16,7 +16,7 @@ body
 .card {
     position: relative;
     width: 300px;
-    height: 425px;
+    height: max-content;
     border: 10px solid #9612eb;
     margin: 0 auto;
     box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
@@ -31,6 +31,7 @@ body
     width: 80%;
     height: 80%;
     margin: auto;
+    padding: 25px 0;
 }
 .strikethrough {
     text-decoration: line-through;
